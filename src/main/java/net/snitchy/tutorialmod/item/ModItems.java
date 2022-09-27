@@ -12,14 +12,20 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, TutorialMod.MODID);
 
+    public static final RegistryObject<Item> CITRINE = ITEMS.register("citrine",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
+
+    public static final RegistryObject<Item> RAW_CITRINE = ITEMS.register("raw_citrine",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
+
     public static final RegistryObject<Item> PLASHKA_EMPTY = ITEMS.register("plashka_empty",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
 
     public static final RegistryObject<Item> PLASHKA_FIRE = ITEMS.register("plashka_fire",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
 
     public static final RegistryObject<Item> PLASHKA_WATER = ITEMS.register("plashka_water",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

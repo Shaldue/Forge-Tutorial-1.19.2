@@ -1,5 +1,17 @@
 {
   "item.tutorialmod.plashka_empty" : "Plashka",
   "item.tutorialmod.plashka_fire" : "Fire Rune",
-  "item.tutorialmod.plashka_water" : "Water Rune"
+  "item.tutorialmod.plashka_water" : "Water Rune",
+  "item.tutorialmod.citrine" : "Citrine",
+  "item.tutorialmod.raw_citrine" : "Raw Citrine",
+
+  "block.tutorialmod.citrine_block": "Citrine Block",
+  "block.tutorialmod.raw_citrine_block": "Raw Citrine Block",
+  "block.tutorialmod.citrine_ore": "Citrine Ore",
+  "block.tutorialmod.deepslate_citrine_ore": "Deepslate Citrine Ore",
+  "block.tutorialmod.endstone_citrine_ore": "Endstone Citrine Ore",
+  "block.tutorialmod.netherrack_citrine_ore": "Netherrack Citrine Ore",
+  "block.tutorialmod.pastril_block": "Pastril Block",
+
+  "itemGroup.tutorialtab": "Tutorial Tab"
 }

@@ -1,5 +1,17 @@
 {
   "item.tutorialmod.plashka_empty" : "Плашка",
   "item.tutorialmod.plashka_fire" : "Руна огня",
-  "item.tutorialmod.plashka_water" : "Руна воды"
+  "item.tutorialmod.plashka_water" : "Руна воды",
+  "item.tutorialmod.citrine" : "Цитрин",
+  "item.tutorialmod.raw_citrine" : "Кусочек цитрина",
+
+  "block.tutorialmod.citrine_block": "Цитриновый блок",
+  "block.tutorialmod.raw_citrine_block": "Кусочек цитринового блока",
+  "block.tutorialmod.citrine_ore": "Цитриновая руда",
+  "block.tutorialmod.deepslate_citrine_ore": "Глубино-сланцевая цитриновая руда",
+  "block.tutorialmod.endstone_citrine_ore": "Эндстоуновая-цитриновая руда",
+  "block.tutorialmod.netherrack_citrine_ore": "Незерак-цитриновая руда",
+  "block.tutorialmod.pastril_block": "Пастрильный блок",
+
+  "itemGroup.tutorialtab": "Тестовая Вкладка"
 }

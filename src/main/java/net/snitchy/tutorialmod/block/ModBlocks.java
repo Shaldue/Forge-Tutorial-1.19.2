@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.snitchy.tutorialmod.TutorialMod;
+import net.snitchy.tutorialmod.block.custom.SpeedyBlock;
 import net.snitchy.tutorialmod.item.ModCreativeModeTab;
 import net.snitchy.tutorialmod.item.ModItems;
 
@@ -46,6 +47,10 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> PASTRIL_BLOCK = registerBlock("pastril_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
+
+    public static final RegistryObject<Block> SPEEDY_BLOCK = registerBlock("speedy_block",
+            () -> new SpeedyBlock(BlockBehaviour.Properties.of(Material.METAL).strength(9f)
                     .requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block,

@@ -4,6 +4,11 @@
   "item.tutorialmod.plashka_water" : "Water Rune",
   "item.tutorialmod.citrine" : "Citrine",
   "item.tutorialmod.raw_citrine" : "Raw Citrine",
+  "item.tutorialmod.ring" : "WTF Ring?",
+  "item.tutorialmod.icecream_sword" : "Icecream Sword",
+  "item.tutorialmod.sword" : "Sword",
+  "block.tutorialmod.speedy_block": "Speedy Block",
+
 
   "block.tutorialmod.citrine_block": "Citrine Block",
   "block.tutorialmod.raw_citrine_block": "Raw Citrine Block",

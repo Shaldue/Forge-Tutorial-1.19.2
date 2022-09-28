@@ -12,7 +12,16 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, TutorialMod.MODID);
 
+    public static final RegistryObject<Item> ICECREAM_SWORD = ITEMS.register("icecream_sword",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
+
+    public static final RegistryObject<Item> SWORD = ITEMS.register("sword",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
+
     public static final RegistryObject<Item> CITRINE = ITEMS.register("citrine",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
+
+    public static final RegistryObject<Item> RING = ITEMS.register("ring",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
 
     public static final RegistryObject<Item> RAW_CITRINE = ITEMS.register("raw_citrine",

@@ -4,6 +4,9 @@
   "item.tutorialmod.plashka_water" : "Руна воды",
   "item.tutorialmod.citrine" : "Цитрин",
   "item.tutorialmod.raw_citrine" : "Кусочек цитрина",
+  "item.tutorialmod.ring" : "ЧЗХ Кольцо?",
+  "item.tutorialmod.icecream_sword" : "Каловый меч",
+  "item.tutorialmod.sword" : "Меч",
 
   "block.tutorialmod.citrine_block": "Цитриновый блок",
   "block.tutorialmod.raw_citrine_block": "Кусочек цитринового блока",
@@ -12,6 +15,7 @@
   "block.tutorialmod.endstone_citrine_ore": "Эндстоуновая-цитриновая руда",
   "block.tutorialmod.netherrack_citrine_ore": "Незерак-цитриновая руда",
   "block.tutorialmod.pastril_block": "Пастрильный блок",
+  "block.tutorialmod.speedy_block": "Ускоряющий блок",
 
   "itemGroup.tutorialtab": "Тестовая Вкладка"
 }
